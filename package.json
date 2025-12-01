@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack --port 3333",
-    "build": "next build",
-    "start": "next start --port 3000",
+    "dev": "node init && next dev --turbopack --port 3333",
+    "build": "node init && next build",
+    "start": "node init && next start --port 3000",
     "lint": "next lint"
   },
   "dependencies": {
